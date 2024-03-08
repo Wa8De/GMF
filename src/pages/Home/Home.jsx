@@ -250,7 +250,7 @@ const Home = () => {
         <motion.img
           src="/assets/logo.png"
           alt="logo"
-          className="w-24"
+          className="w-16"
           draggable="false"
           initial={{ y: 100 }} // Start position is off-screen below
           animate={{ y: 10 }} // Move to the top of the viewport
