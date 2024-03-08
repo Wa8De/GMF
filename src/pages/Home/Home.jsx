@@ -23,7 +23,7 @@ const Home = () => {
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           src="/assets/title.png"
-          className="w-8/12 pt-2 md:pt-4  "
+          className="w-8/12 pt-2 md:pt-4  bg-danger"
           alt="Title"
           draggable="false"
           style={{ zIndex: 9999 }}
@@ -65,7 +65,7 @@ const Home = () => {
             },
           }}
           src="/assets/wheel.png"
-          className="huge:w-[500px] w-[350px]  p-4  ml-2  rounded-full"
+          className="huge:w-[500px] w-[300px]   bg-danger ml-2  rounded-full"
           alt="Spinning-Wheel"
           draggable="false"
         />
@@ -104,8 +104,6 @@ const Home = () => {
       {/* PLAY BUTTON */}
 
       {/* LOGO */}
-
-   
     </div>
   );
 };
