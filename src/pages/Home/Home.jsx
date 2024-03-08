@@ -247,6 +247,7 @@ const Home = () => {
             </button>
           </Link> */}
         </motion.div>
+        <h1 className="font-primary text-white font-semibold">MARIYAM</h1>
         <motion.img
           src="/assets/logo.png"
           alt="logo"
