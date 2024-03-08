@@ -52,7 +52,7 @@ const Home = () => {
         <motion.img
           style={{ zIndex: 2 }}
           initial={{ rotate: 0, scale: 0 }}
-          animate={{ rotate: 0, scale: 1 }}
+          animate={{ rotate: 360, scale: 1 }}
           transition={{
             scale: {
               duration: 0.5,
