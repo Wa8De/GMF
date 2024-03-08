@@ -23,7 +23,7 @@ const Home = () => {
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           src="/assets/title.png"
-          className="w-10/12 pt-2 md:pt-4  "
+          className="w-8/12 pt-2 md:pt-4  "
           alt="Title"
           draggable="false"
           style={{ zIndex: 9999 }}
@@ -65,7 +65,7 @@ const Home = () => {
             },
           }}
           src="/assets/wheel.png"
-          className="huge:w-3/12 w-12/12 p-4 absolute top-64 ml-2 bg-danger  rounded-full"
+          className="huge:w-3/12 w-11/12 p-4 absolute top-40 ml-2  rounded-full"
           alt="Spinning-Wheel"
           draggable="false"
         />
