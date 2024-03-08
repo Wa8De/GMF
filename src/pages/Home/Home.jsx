@@ -32,8 +32,8 @@ const Home = () => {
           initial={{ opacity: 1 }}
           animate={{ opacity: 1 }}
           src="/assets/coins-cut2.png"
-          className="w-72 absolute md:-right-56 md:-top-72 md:rotate-45  left-0 bg-da "
-          alt="Right-Coins"
+          className="huge:w-4/12 w-72 absolute lg:w-3/12 huge:-left-56 huge:-top-72 md:rotate-45  left-0 bg-da "
+          alt="left-Coins"
           draggable="false"
           style={{ zIndex: 9998 }}
         />
@@ -41,8 +41,8 @@ const Home = () => {
           initial={{ opacity: 1 }}
           animate={{ opacity: 1 }}
           src="/assets/coins2.png"
-          className="w-72 absolute md:-left-56 md:-top-72 md:rotate-45 right-0 "
-          alt="Left-Coins"
+          className="huge:w-4/12 w-72 absolute lg:w-3/12 huge:-right-56 huge:-top-72 md:rotate-45 right-0 "
+          alt="right-Coins"
           draggable="false"
           // style={{ zIndex: 9998 }}
         />
@@ -65,7 +65,7 @@ const Home = () => {
             },
           }}
           src="/assets/wheel.png"
-          className="huge:w-3/12  w-10/12 p-4 absolute top-44 ml-2  rounded-full"
+          className="huge:w-[500px] w-[400px]  p-4  ml-2  rounded-full"
           alt="Spinning-Wheel"
           draggable="false"
         />
@@ -241,11 +241,11 @@ const Home = () => {
             </defs>
           </svg> */}
 
-          {/* <Link to={`/googleAuth`}>
+          <Link to={`/googleAuth`}>
             <button className="btn bg-primary w-72 border-none shadow-lg text-white font-primary uppercase ">
               Je veux jouer
             </button>
-          </Link> */}
+          </Link>
         </motion.div>
         <motion.img
           src="/assets/logo.png"
