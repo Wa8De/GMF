@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div
-      className="bg-container flex flex-col items-center justify-between !select-none relative "
+      className="bg-container h-full flex flex-col items-center justify-between !select-none relative "
       style={{
         backgroundImage: `url('/assets/blank.png')`,
       }}
