@@ -44,7 +44,6 @@ const Home = () => {
           className="huge:w-4/12 w-72 absolute lg:w-3/12 huge:-right-56 huge:-top-72 md:rotate-45  right-0 "
           alt="right-Coins"
           draggable="false"
-          style={{ zIndex: 1 }}
         />
 
         {/* ANIMATED WHEEL CODE */}
@@ -82,7 +81,7 @@ const Home = () => {
             draggable="false"
           />
           <Link to={`/googleAuth`}>
-            <button className="btn bg-primary  flex text-sm justify-center items-center md:text-2xl font-bold tracking-wide md:tracking-tighter text-white uppercase border-none rounded-xl ">
+            <button className="btn bg-primary  flex text-sm  justify-center items-center md:text-2xl font-bold tracking-wide md:tracking-tighter text-white uppercase border-none rounded-xl ">
               Je veux jouer
             </button>
           </Link>
