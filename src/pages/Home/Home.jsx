@@ -32,7 +32,7 @@ const Home = () => {
           initial={{ opacity: 1 }}
           animate={{ opacity: 1 }}
           src="/assets/coins-cut2.png"
-          className="md:w-4/12 w-8/12 absolute md:-right-56 md:-top-72 md:rotate-45 right-0 -top-32  "
+          className="w-72 absolute md:-right-56 md:-top-72 md:rotate-45  left-0 bg-da "
           alt="Right-Coins"
           draggable="false"
           style={{ zIndex: 9998 }}
@@ -41,7 +41,7 @@ const Home = () => {
           initial={{ opacity: 1 }}
           animate={{ opacity: 1 }}
           src="/assets/coins2.png"
-          className="md:w-4/12 w-10/12 absolute md:-left-56 md:-top-72 md:rotate-45 -left-56 -top-32 "
+          className="w-72 absolute md:-left-56 md:-top-72 md:rotate-45 right-0 "
           alt="Left-Coins"
           draggable="false"
           // style={{ zIndex: 9998 }}
