@@ -23,7 +23,7 @@ const Home = () => {
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           src="/assets/title.png"
-          className="huge:w-[360px] xl:w-[200px] pt-2 md:pt-4"
+          className="huge:w-[360px] xl:w-[200px] w-[200px] pt-2 md:pt-4"
           alt="Title"
           draggable="false"
           style={{ zIndex: 9999 }}
