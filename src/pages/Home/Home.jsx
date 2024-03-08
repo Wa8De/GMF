@@ -35,7 +35,7 @@ const Home = () => {
           className="huge:w-4/12 w-72 absolute lg:w-3/12 huge:-left-56 huge:-top-72 md:rotate-45 top-0  left-0 bg-da "
           alt="left-Coins"
           draggable="false"
-          style={{ zIndex: 9998 }}
+          // style={{ zIndex: 9998 }}
         />
         <motion.img
           initial={{ opacity: 1 }}
