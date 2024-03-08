@@ -12,7 +12,7 @@ const Home = () => {
     >
       {/* TITLE */}
 
-      <div className="flex flex-col items-center justify-center ">
+      <div className="flex flex-col items-center justify-center  ">
         <motion.img
           transition={{
             scale: {
@@ -23,7 +23,7 @@ const Home = () => {
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           src="/assets/title.png"
-          className="w-8/12 pt-2 md:pt-4"
+          className="huge:w-[360px] xl:w-[200px] pt-2 md:pt-4"
           alt="Title"
           draggable="false"
           style={{ zIndex: 9999 }}
@@ -49,33 +49,40 @@ const Home = () => {
 
         {/* ANIMATED WHEEL CODE */}
 
-        <motion.img
-          style={{ zIndex: 2 }}
-          initial={{ rotate: 0, scale: 0 }}
-          animate={{ rotate: 360, scale: 1 }}
-          transition={{
-            scale: {
-              duration: 0.5,
-              ease: "easeInOut",
-            },
-            rotate: {
-              repeat: Infinity,
-              duration: 6,
-              delay: 0.5,
-              ease: "linear",
-            },
-          }}
-          src="/assets/wheel.png"
-          className="huge:w-[400px] w-[300px] ml-2 rounded-full"
-          alt="Spinning-Wheel"
-          draggable="false"
-        />
+        <motion.div className="w-full flex flex-col items-center  gap-3">
+          <motion.img
+            style={{ zIndex: 2 }}
+            initial={{ rotate: 0, scale: 0 }}
+            animate={{ rotate: 360, scale: 1 }}
+            transition={{
+              scale: {
+                duration: 0.5,
+                ease: "easeInOut",
+              },
+              rotate: {
+                repeat: Infinity,
+                duration: 6,
+                delay: 0.5,
+                ease: "linear",
+              },
+            }}
+            src="/assets/wheel.png"
+            className="huge:w-[400px] w-[300px] ml-2 rounded-full"
+            alt="Spinning-Wheel"
+            draggable="false"
+          />
+          <Link to={`/googleAuth`}>
+            <button className="btn bg-primary w-96 h-20 text-2xl font-bold tracking-tighter border-none shadow-white shadow-md text-white font-primary uppercase ring-offset-2 ring-offset-white ">
+              Je veux jouer
+            </button>
+          </Link>
+        </motion.div>
       </div>
 
       {/* PLAY BUTTON */}
 
       {/* LOGO */}
-      <div className=" flex flex-col justify-center full items-center ">
+      <div className="">
         <motion.div
           className=""
           initial={{ scale: 0 }}
@@ -86,14 +93,7 @@ const Home = () => {
               ease: "easeInOut",
             },
           }}
-        >
-    
-          {/* <Link to={`/googleAuth`}>
-            <button className="btn bg-primary w-72 border-none shadow-lg text-white font-primary uppercase ">
-              Je veux jouer
-            </button>
-          </Link> */}
-        </motion.div>
+        ></motion.div>
         <motion.img
           src="/assets/logo.png"
           alt="logo"

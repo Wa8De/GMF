@@ -34,7 +34,7 @@ export default {
         "huge": { min: "1535px" },
         // => @media (min-width: 1535px) { ... }
 
-        xl: { min: "1279px" },
+        xl: { min: "1400px" },
         // => @media (min-width: 1279px) { ... }
 
         lg: { min: "1023px" },
