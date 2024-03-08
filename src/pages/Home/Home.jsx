@@ -23,7 +23,7 @@ const Home = () => {
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           src="/assets/title.png"
-          className="huge:w-[360px] xl:w-[200px] w-[200px] pt-2 md:pt-4"
+          className="huge:w-[360px] xl:w-[200px] w-[250px] pt-2 md:pt-4"
           alt="Title"
           draggable="false"
           style={{ zIndex: 9999 }}
@@ -49,7 +49,7 @@ const Home = () => {
 
         {/* ANIMATED WHEEL CODE */}
 
-        <motion.div className="w-full flex flex-col items-center  gap-3">
+        <motion.div className="w-full  flex flex-col items-center  gap-3">
           <motion.img
             style={{ zIndex: 2 }}
             initial={{ rotate: 0, scale: 0 }}
@@ -72,7 +72,7 @@ const Home = () => {
             draggable="false"
           />
           <Link to={`/googleAuth`}>
-            <button className="btn bg-primary w-96 h-20 text-2xl font-bold tracking-tighter border-none shadow-white shadow-md text-white font-primary uppercase ring-offset-2 ring-offset-white ">
+            <button className="btn bg-primary  flex text-sm justify-center items-center md:text-2xl font-bold tracking-wide md:tracking-tighter border-none shadow-white shadow-md text-white font-primary uppercase ring-offset-2 ring-offset-white ">
               Je veux jouer
             </button>
           </Link>
