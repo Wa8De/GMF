@@ -32,7 +32,7 @@ const Home = () => {
           initial={{ opacity: 1 }}
           animate={{ opacity: 1 }}
           src="/assets/coins-cut2.png"
-          className="md:w-4/12 absolute md:-right-56 md:-top-72 md:rotate-45 right-0 -top-32 "
+          className="md:w-4/12 w-8/12 absolute md:-right-56 md:-top-72 md:rotate-45 right-0 -top-32  "
           alt="Right-Coins"
           draggable="false"
           style={{ zIndex: 9998 }}
@@ -41,7 +41,7 @@ const Home = () => {
           initial={{ opacity: 1 }}
           animate={{ opacity: 1 }}
           src="/assets/coins2.png"
-          className="md:w-4/12 absolute md:-left-56 md:-top-72 md:rotate-45 -left-56 -top-32 "
+          className="md:w-4/12 w-10/12 absolute md:-left-56 md:-top-72 md:rotate-45 -left-56 -top-32 "
           alt="Left-Coins"
           draggable="false"
           // style={{ zIndex: 9998 }}
@@ -65,7 +65,7 @@ const Home = () => {
             },
           }}
           src="/assets/wheel.png"
-          className="huge:w-3/12 w-11/12 p-4 absolute top-40 ml-2  rounded-full"
+          className="huge:w-3/12  w-10/12 p-4 absolute top-44 ml-2  rounded-full"
           alt="Spinning-Wheel"
           draggable="false"
         />
