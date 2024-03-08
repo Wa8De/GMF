@@ -75,13 +75,13 @@ const Home = () => {
                 ease: "linear",
               },
             }}
-            src="/assets/wheel.png"
+            src="/assets/wheeeeeeeeeeeeeeeeeel.png"
             className="huge:w-[400px] w-[300px] ml-2 rounded-full"
             alt="Spinning-Wheel"
             draggable="false"
           />
           <Link to={`/googleAuth`}>
-            <button className="btn bg-primary  flex text-sm  justify-center items-center md:text-2xl font-bold tracking-wide md:tracking-tighter text-white uppercase border-none rounded-xl ">
+            <button className="btn bg-primary  flex text-sm h-20 w-72 hover:bg-primary  md:text-2xl font-bold tracking-wide md:tracking-tighter text-white uppercase border-none rounded-xl ">
               Je veux jouer
             </button>
           </Link>
