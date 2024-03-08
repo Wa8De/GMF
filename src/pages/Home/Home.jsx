@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div
-      className="bg-container flex flex-col items-center justify-between !select-none h-screen  "
+      className="bg-container flex flex-col items-center justify-between !select-none h-screen font-primary "
       style={{
         backgroundImage: `url('/assets/blank.png')`,
       }}
@@ -49,7 +49,17 @@ const Home = () => {
 
         {/* ANIMATED WHEEL CODE */}
 
-        <motion.div className="w-full  flex flex-col items-center  gap-3">
+        <motion.div
+          className="w-full  flex flex-col items-center  gap-3"
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          transition={{
+            scale: {
+              duration: 0.5,
+              ease: "easeInOut",
+            },
+          }}
+        >
           <motion.img
             style={{ zIndex: 2 }}
             initial={{ rotate: 0, scale: 0 }}
@@ -72,7 +82,7 @@ const Home = () => {
             draggable="false"
           />
           <Link to={`/googleAuth`}>
-            <button className="btn bg-primary  flex text-sm justify-center items-center md:text-2xl font-bold tracking-wide md:tracking-tighter border-none shadow-white shadow-md text-white font-primary uppercase ring-offset-2 ring-offset-white ">
+            <button className="btn bg-primary  flex text-sm justify-center items-center md:text-2xl font-bold tracking-wide md:tracking-tighter text-white uppercase border-none rounded-xl ">
               Je veux jouer
             </button>
           </Link>
