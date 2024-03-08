@@ -41,7 +41,7 @@ const Home = () => {
           initial={{ opacity: 1 }}
           animate={{ opacity: 1 }}
           src="/assets/coins2.png"
-          className="huge:w-4/12 w-72 absolute lg:w-3/12 huge:-right-56 huge:-top-72 md:rotate-45  right-0 "
+          className="huge:w-4/12 w-80 absolute lg:w-3/12 huge:-right-56 huge:-top-72 md:rotate-45  right-0 "
           alt="right-Coins"
           draggable="false"
         />
