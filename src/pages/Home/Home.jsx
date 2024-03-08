@@ -65,7 +65,7 @@ const Home = () => {
             },
           }}
           src="/assets/wheel.png"
-          className="huge:w-3/12 w-12/12 p-4 absolute top-32 ml-2  rounded-full"
+          className="huge:w-3/12 w-12/12 p-4 absolute top-64 ml-2 bg-danger  rounded-full"
           alt="Spinning-Wheel"
           draggable="false"
         />
